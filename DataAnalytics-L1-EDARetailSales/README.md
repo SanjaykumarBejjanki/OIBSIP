@@ -1,5 +1,13 @@
 # 📊 Retail Sales Analysis – Exploratory Data Analysis (EDA)
 
+## 🚀 Live Demo
+
+👉 **[Open Retail Sales Analysis Dashboard – Streamlit](https://oibsip-exobucy62s94eu2rdmxdb4.streamlit.app/)**
+
+🔗 **[GitHub Repository](https://github.com/SanjaykumarBejjanki/OIBSIP)**
+
+---
+
 ## 📌 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on a retail sales dataset to understand sales performance, profitability, customer behavior, product performance, and sales trends.
@@ -49,6 +57,7 @@ The dataset contains retail sales transaction information including:
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+- Streamlit
 
 ---
 
@@ -115,6 +124,14 @@ DataAnalytics-L1-EDARetailSales/
 ├── outputs/
 │   └── graph1.png
 │
+├── app.py
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+## 👤 Author
+
+**Bejjanki Sanjay Kumar**
+
+🎓 AI & ML | Data Analytics
+
+🚀 **Live Dashboard:** [Streamlit App](https://oibsip-exobucy62s94eu2rdmxdb4.streamlit.app/)
