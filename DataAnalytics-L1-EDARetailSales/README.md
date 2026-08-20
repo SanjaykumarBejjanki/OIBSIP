@@ -1,14 +1,25 @@
-# Retail Sales Analysis – EDA
+# 📊 Retail Sales Analysis – Exploratory Data Analysis (EDA)
 
 ## 📌 Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on a retail sales dataset to understand sales performance, profitability, customer behavior, product performance, and sales trends.
 
-The project follows a complete data analytics workflow including data loading, data cleaning, feature engineering, exploratory data analysis, visualization, insights generation, and business recommendations.
+The project follows a complete data analytics workflow including:
+
+- Data loading
+- Data cleaning
+- Data quality checking
+- Feature engineering
+- Exploratory data analysis
+- Data visualization
+- Business insights
+- Business recommendations
+
+---
 
 ## 📊 Dataset
 
-The dataset contains retail sales transactions with information about:
+The dataset contains retail sales transaction information including:
 
 - Customer demographics
 - Date and time information
@@ -17,7 +28,9 @@ The dataset contains retail sales transactions with information about:
 - Products
 - Order quantities
 - Unit cost and unit price
-- Revenue, cost, and profit
+- Revenue
+- Cost
+- Profit
 
 ### Dataset Size
 
@@ -25,6 +38,8 @@ The dataset contains retail sales transactions with information about:
 - Records after removing duplicates: 112,036
 - Original columns: 18
 - Final columns after feature engineering: 23
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -35,6 +50,8 @@ The dataset contains retail sales transactions with information about:
 - Seaborn
 - Jupyter Notebook
 
+---
+
 ## 🔍 Analysis Performed
 
 The project includes:
@@ -44,24 +61,32 @@ The project includes:
 3. Duplicate detection and removal
 4. Date conversion
 5. Feature engineering
-6. Revenue and profit analysis
-7. Customer demographic analysis
-8. Product category analysis
-9. Geographic analysis
-10. Exploratory data visualization
+6. Revenue analysis
+7. Profit analysis
+8. Customer demographic analysis
+9. Product category analysis
+10. Geographic analysis
+11. Data visualization
+12. Business insights generation
+
+---
 
 ## 📈 Key Analysis Areas
 
-- Revenue trends
-- Profit trends
-- Product category performance
-- Customer age groups
-- Customer gender
-- Country and state performance
-- Product performance
-- Order quantity analysis
+The analysis focuses on:
 
-## 💡 Business Recommendations
+- 📊 Revenue trends
+- 💰 Profit trends
+- 🛍️ Product category performance
+- 👥 Customer age groups
+- ⚥ Customer gender
+- 🌎 Country and state performance
+- 📦 Product performance
+- 🧾 Order quantity analysis
+
+---
+
+## 💡 Key Business Recommendations
 
 Based on the analysis, businesses can:
 
@@ -69,8 +94,11 @@ Based on the analysis, businesses can:
 - Identify and improve low-performing products.
 - Target customer segments with stronger purchasing activity.
 - Analyze geographic performance to improve regional strategies.
-- Monitor product profitability and costs.
+- Monitor product profitability and operating costs.
 - Use historical sales trends for future planning.
+- Improve inventory planning based on demand patterns.
+
+---
 
 ## 📁 Project Structure
 
@@ -82,12 +110,11 @@ DataAnalytics-L1-EDARetailSales/
 │   └── cleaned_retail_sales.csv
 │
 ├── notebooks/
+│   └── retail_sales_eda.ipynb
+│
 ├── outputs/
-├── src/
+│   └── graph1.png
+│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
-## 👤 Author
-
-**Bejjanki Sanjay Kumar**
