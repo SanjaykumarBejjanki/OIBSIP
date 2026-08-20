@@ -18,10 +18,14 @@ st.write(
 )
 
 # Load dataset
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "data" / "cleaned_retail_sales.csv"
+
 @st.cache_data
 def load_data():
-    file_path = "data/cleaned_retail_sales.csv"
-    return pd.read_csv(file_path)
+    return pd.read_csv(DATA_PATH)
 
 df = load_data()
 
