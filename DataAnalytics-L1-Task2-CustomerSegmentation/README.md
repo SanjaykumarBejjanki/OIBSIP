@@ -88,6 +88,7 @@ https://github.com/SanjaykumarBejjanki
 
 ## 📁 Project Structure
 
+```text
 CustomerSegmentation/
 │
 ├── data/
@@ -95,11 +96,8 @@ CustomerSegmentation/
 │   └── customer_segments.csv
 │
 ├── notebooks/
+│   └── customer_segmentation.ipynb
 │
-├── outputs/
-├── src/
-│
-├── Customer_Segmentation.ipynb
+├── .gitignore
 ├── README.md
 └── requirements.txt
-```text
