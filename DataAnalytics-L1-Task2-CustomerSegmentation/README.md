@@ -72,7 +72,7 @@ The project includes:
 
 ## 📁 Project Structure
 
-```text
+
 ## 📌 Results
 
 The K-Means algorithm successfully grouped customers into meaningful segments based on income, spending behavior, and demographic characteristics.
@@ -85,6 +85,8 @@ These segments can help businesses understand customer behavior and develop targ
 
 GitHub:  
 https://github.com/SanjaykumarBejjanki
+
+## 📁 Project Structure
 
 CustomerSegmentation/
 │
@@ -100,3 +102,4 @@ CustomerSegmentation/
 ├── Customer_Segmentation.ipynb
 ├── README.md
 └── requirements.txt
+```text
